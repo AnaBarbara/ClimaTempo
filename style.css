@@ -10,6 +10,10 @@ body{
     padding-top: 8vw;
 }
 
+.input-uf{
+    width: 50%;
+}
+
 .btn-outline-secondary {
     color: #ffffff;
     background-color: transparent;
@@ -18,14 +22,14 @@ body{
     font-weight: bold;
 }
 
-#card72h .col-3{
+#card72h .col{
     background-color: #fff;
-    margin-left: 3vw;
-    margin-right: 3vw;
+    margin-left: 2vw;
+    margin-right: 1vw;
     border-radius: 7px;
 }
 
-#card72h .col-md-3 ul{
+#card72h .col ul{
     margin-top: 1rem;
 }
 
@@ -34,4 +38,19 @@ table{
     font-weight: bold;
     background-color: #00000073!important;
     width: 98%!important;
+}
+
+@media(max-width: 425px) {
+    .container .row{
+        display: block!important;
+    }
+
+    .input-cidade{
+        margin-bottom: 10px!important;
+    }
+
+    #card72h .col{
+        width: 75%;
+        margin-left: 12%;
+    }
 }

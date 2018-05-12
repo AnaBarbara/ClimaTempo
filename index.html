@@ -16,14 +16,14 @@
     <body>
         <div class="container">
             <div class="row">
-                <div class="col-6 offset-md-1">
-                    <div class="input-group mb-5">
+                <div class="col offset-md-1">
+                    <div class="input-group input-cidade mb-5">
                         <input name="cidade" type="text" class="form-control" aria-label="Cidade" aria-describedby="basic-addon1"
                                placeholder="Informe a cidade que deseja consultar a previsão do tempo">
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="input-group mb-5">
+                <div class="col">
+                    <div class="input-group input-uf mb-5">
                         <input name="uf" type="text" class="form-control" placeholder="UF" aria-label="UF"
                                aria-describedby="basic-addon2">
                         <div class="input-group-append">
@@ -111,7 +111,7 @@
                     tempMin ='<li>'+'Temperatura mínima '+min+'º'+'</li>';
                     tempMax ='<li>'+'Temperatura maxima '+max+'º'+'</li>';
                     chuva ='<li>'+'Probabilidade de chuva '+card72h.data[i].rain.precipitation+'%'+'</li>';
-                    content = '<div class="col-md-3"><ul class="list-unstyled">'+tresDias+tempMin+tempMax+chuva+'</ul></div>';
+                    content = '<div class="col"><ul class="list-unstyled">'+tresDias+tempMin+tempMax+chuva+'</ul></div>';
                 }
                 return content;
             }
@@ -130,9 +130,9 @@
                             "<thead>" +
                                 "<tr class='text-center'>" +
                                     "<th scope='col'>Data</th>" +
-                                    "<th scope='col'>Temperatura Min</th>" +
-                                    "<th scope='col'>Temperatura Max</th>" +
-                                    "<th scope='col'>Probabilidade de chuva</th>" +
+                                    "<th scope='col'>Temp. Min</th>" +
+                                    "<th scope='col'>Temp. Max</th>" +
+                                    "<th scope='col'>Probab. de chuva</th>" +
                                 "</tr>" +
                             "</thead>" +
                             "<tbody>";
