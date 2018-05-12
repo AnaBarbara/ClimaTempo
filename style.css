@@ -1,0 +1,37 @@
+body{
+    background-image: url(http://capitalcitygroundskeeping.com/wp-content/uploads/2014/03/201403171109-Capital-City-Groudskeeping-7022742-1600x900-JPG.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    min-height: 47.4vw;
+}
+
+.container{
+    padding-top: 8vw;
+}
+
+.btn-outline-secondary {
+    color: #ffffff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #ffffff;
+    font-weight: bold;
+}
+
+#card72h .col-3{
+    background-color: #fff;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    border-radius: 7px;
+}
+
+#card72h .col-3 ul{
+    margin-top: 1rem;
+}
+
+table{
+    color: #fff;
+    font-weight: bold;
+    background-color: #00000073!important;
+    width: 98%!important;
+}
